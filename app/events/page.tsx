@@ -1,6 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
 import { Calendar, Clock, MapPin } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "Events & Media | Public Opinion Analytics Lab",
+  description:
+    "Events and media from the Public Opinion Analytics Lab, including the Politically In/Sane podcast.",
+};
 
 export default function EventsPage() {
   const events = [
@@ -21,8 +28,62 @@ export default function EventsPage() {
       <section className="py-16 px-4 md:px-6">
         <div className="container mx-auto max-w-5xl">
           <h1 className="text-4xl font-bold mb-16 text-center text-gray-900">
-            Events
+            Events &amp; Media
           </h1>
+
+          <div className="mb-10 flex items-center gap-4">
+            <div className="h-px flex-1 bg-gray-200" />
+            <span className="text-sm font-semibold uppercase tracking-wider text-gray-500">
+              Podcast
+            </span>
+            <div className="h-px flex-1 bg-gray-200" />
+          </div>
+
+          <div className="mx-auto max-w-3xl">
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-md">
+              <div className="grid grid-cols-1 md:grid-cols-5 gap-0">
+                <div className="relative h-64 md:h-full md:col-span-2">
+                  <Image
+                    src="/podcast.png"
+                    alt="Politically In/Sane podcast cover"
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, 40vw"
+                  />
+                </div>
+                <div className="p-6 md:col-span-3">
+                  <h2 className="text-2xl font-bold mb-3 text-gray-900">
+                    Politically In/Sane
+                  </h2>
+                  <p className="text-gray-700 mb-5">
+                    Politically In/Sane is a Political Behaviour podcast featuring leading
+                    figures in the field. It explores how people think, feel, and act
+                    politically — from emotions and identities to algorithms and elections
+                    — where psychology meets democracy.
+                  </p>
+                  <Link
+                    href="https://pod.link/1851725697"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center rounded-md bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-emerald-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600"
+                  >
+                    Listen to the podcast
+                  </Link>
+                  <p className="text-sm text-gray-500 mt-3">
+                    The link opens a page with all platforms, episodes, and descriptions.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="my-12 flex items-center gap-4">
+            <div className="h-px flex-1 bg-gray-200" />
+            <span className="text-sm font-semibold uppercase tracking-wider text-gray-500">
+              Events
+            </span>
+            <div className="h-px flex-1 bg-gray-200" />
+          </div>
 
           <div className="mb-16">
             {events.map((event) => (
