@@ -61,14 +61,24 @@ export default function EventsPage() {
                     politically — from emotions and identities to algorithms and elections
                     — where psychology meets democracy.
                   </p>
-                  <Link
-                    href="https://pod.link/1851725697"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center rounded-md bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-emerald-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600"
-                  >
-                    Listen to the podcast
-                  </Link>
+                  <div className="flex flex-wrap gap-3">
+                    <Link
+                      href="https://pod.link/1851725697"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center rounded-md bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-emerald-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600"
+                    >
+                      Listen to the podcast
+                    </Link>
+                    <Link
+                      href="https://politicsinsane.substack.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center rounded-md bg-orange-500 px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-500"
+                    >
+                      Read the Substack
+                    </Link>
+                  </div>
                   <p className="text-sm text-gray-500 mt-3">
                     The link opens a page with all platforms, episodes, and descriptions.
                   </p>

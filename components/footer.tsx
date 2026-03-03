@@ -88,6 +88,7 @@ export default function Footer() {
             </Link>
           </div>
         </div>
+        <p className="text-right text-gray-700 text-[10px] mt-6">crafted by Lauren Leek</p>
       </div>
     </footer>
   )

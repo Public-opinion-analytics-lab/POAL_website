@@ -12,6 +12,42 @@ export default function MethodsBriefSeriesPage() {
               </p>
             </div>
 
+            {/* Polling Policy Preferences Brief */}
+            <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 p-8 max-w-md mx-auto mb-8">
+              <a 
+                href="/miriam_brief.pdf" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block group"
+              >
+                {/* Polling Policy Preferences Image */}
+                <div className="mb-6 relative overflow-hidden rounded-lg h-48 group-hover:scale-105 transition-transform duration-300">
+                  <img 
+                    src="/conjoint_miriam.png" 
+                    alt="Polling Policy Preferences Methods Brief"
+                    className="w-full h-full object-cover rounded-lg shadow-md"
+                  />
+                </div>
+
+                {/* Content */}
+                <div className="text-center">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors duration-300">
+                    Polling Policy Preferences Brief
+                  </h3>
+                  <p className="text-gray-500 text-xs font-medium mb-2">By Dr. Miriam Sorace</p>
+                  <p className="text-gray-600 text-sm mb-4">
+                    This brief explains how to do robust polling of policy preferences.
+                  </p>
+                  <div className="inline-flex items-center text-blue-600 font-medium text-sm">
+                    <span>Download PDF</span>
+                    <svg className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </div>
+                </div>
+              </a>
+            </div>
+
             {/* AI Brief */}
             <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 p-8 max-w-md mx-auto mb-8">
               <a 
@@ -34,6 +70,7 @@ export default function MethodsBriefSeriesPage() {
                   <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors duration-300">
                     AI Agents in Surveys Methods Brief
                   </h3>
+                  <p className="text-gray-500 text-xs font-medium mb-2">By Dr. Lauren Leek</p>
                   <p className="text-gray-600 text-sm mb-4">
                     This brief explains how AI agents are infiltrating surveys and strategies how to deal with this.
                   </p>
@@ -69,6 +106,7 @@ export default function MethodsBriefSeriesPage() {
                   <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors duration-300">
                     Conjoint Analysis Methods Brief
                   </h3>
+                  <p className="text-gray-500 text-xs font-medium mb-2">By Dr. Thomas Robinson</p>
                   <p className="text-gray-600 text-sm mb-4">
                     A comprehensive guide to conjoint analysis methodology, applications, and best practices.
                   </p>
