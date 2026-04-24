@@ -289,6 +289,14 @@ export default function PeoplePage() {
       institutional_website: "https://www.lse.ac.uk/government/people#Kr",
       focus: "Political Behaviour, Representation, Campaigns, Activism, Field Experiments and Causal Inference",
     },
+    {
+      id: 33,
+      name: "Hanna Reichelt",
+      image: "/bio_hanna.png?height=200&width=200&text=HR",
+      personal_website: "https://hannareichelt.github.io/index.html",
+      institutional_website: "https://www.southampton.ac.uk/people/66xlp8/hanna-reichelt",
+      focus: "Democratic Resilience, Political Psychology, Political Geography, Complexity-Informed Approaches, Mixed Methods",
+    },
 
   ]
 
