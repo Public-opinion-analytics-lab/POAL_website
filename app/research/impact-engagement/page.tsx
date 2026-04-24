@@ -23,7 +23,7 @@ export default function ImpactEngagementPage() {
               { 
                 title: "Public Events & Media", 
                 image: "/public.jpg?height=300&width=400",
-                href: "/research/public-events-media"
+                href: "/events/"
               },
               { 
                 title: "Public Explainers", 
