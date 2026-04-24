@@ -10,6 +10,30 @@ export default function FeaturedResearchPage() {
           <h1 className="text-3xl md:text-4xl font-bold mb-16 text-center">Featured Research</h1>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-48 w-full">
+                <Image
+                  src="/ranked-choice-conjoint.jpg?height=200&width=400"
+                  alt="Ranked-Choice Conjoint Research"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">Ranked-Choice Conjoint Experiments</h3>
+                <p className="text-gray-500 mb-4">2026</p>
+                <p className="text-gray-700 mb-4">
+                  How can forced-choice conjoint experiments be made more efficient and better resemble real-world political choices? Thomas S. Robinson, Mats Ahrenshop, and Spyros Kosmidis formalize the inclusion of rankings in conjoint designs and demonstrate that they offer efficiency gains among other advantages. This research makes significant theoretical contributions and has considerable implications for practitioners looking to improve precision while under sample size and time-related constraints.
+                </p>
+                <Link href="https://arxiv.org/abs/2604.15064" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
+                  Read the full study <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div>
+
+
             <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <div className="relative h-48 w-full">
                 <Image
