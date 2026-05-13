@@ -297,6 +297,14 @@ export default function PeoplePage() {
       institutional_website: "https://www.southampton.ac.uk/people/66xlp8/hanna-reichelt",
       focus: "Democratic Resilience, Political Psychology, Political Geography, Complexity-Informed Approaches, Mixed Methods",
     },
+    {
+      id: 34,
+      name: "Mollie Ruler",
+      image: "/bio_mollie.jpg?height=200&width=200&text=MR",
+      personal_website: "https://www.southampton.ac.uk/people/6655c8/miss-mollie-ruler",
+      institutional_website: "https://www.southampton.ac.uk/people/6655c8/miss-mollie-ruler",
+      focus: "Public Opinion, Quantitative Methodology, Criminal Justice, Punitive Attitudes, Social Psychology",
+    },
 
   ]
 
