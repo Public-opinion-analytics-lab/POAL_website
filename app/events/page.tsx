@@ -12,6 +12,18 @@ export const metadata: Metadata = {
 export default function EventsPage() {
   const events = [
     {
+      id: 2,
+      title: "POAL-LSE 2026 Local Elections Event",
+      date: "May 11, 2026",
+      time: "1:30 PM - 6:30 PM",
+      location: "The London School of Economics and Political Science, UK",
+      image: "/local_elections_event_2026.jpg?height=300&width=500&text=Conference",
+      description:
+        "Our local elections event brought together leading political scientists, election analysts and campaign experts to examine the latest electoral results and what they reveal about the future of British politics.",
+      report: "/local_elections_event_2026_report.pdf",
+
+    },
+    {
       id: 1,
       title: "POAL Launch event",
       date: "May 16, 2025",
@@ -20,6 +32,7 @@ export default function EventsPage() {
       image: "/opening.jpg?height=300&width=500&text=Conference",
       description:
         "Our launch event with various speakers and panels discussing the future of public opinion analytics.",
+      report: "/event1_report.pdf",
     },
   ];
 
@@ -138,7 +151,7 @@ export default function EventsPage() {
                     </p>
                   )}
                   <Link
-                    href="/event1_report.pdf"
+                    href={event.report}
                     target="_blank"
                     className="text-emerald-600 hover:text-emerald-800 font-medium block text-center"
                   >
