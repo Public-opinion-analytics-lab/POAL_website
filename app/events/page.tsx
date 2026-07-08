@@ -12,6 +12,18 @@ export const metadata: Metadata = {
 export default function EventsPage() {
   const events = [
     {
+      id: 3,
+      title: "POAL–EPSS Roundtable: Protecting Democracy in the Age of AI",
+      date: "June 19, 2026",
+      time: "10:50 AM - 12:30 PM",
+      location: "ICC Belfast",
+      image: "/POAL_EPSS_roundtable_2026.jpg?height=300&width=500&text=Conference",
+      description:
+        "POAL experts discussed what is new about generative and agentic AI for democratic processes, including its epistemic risks and the challenges and opportunities it presents for political representation and policymaking.",
+      report: "/POAL_EPSS_roundtable_event_2026_report.pdf",
+
+    },
+    {
       id: 2,
       title: "POAL-LSE 2026 Local Elections Event",
       date: "May 11, 2026",
