@@ -79,8 +79,7 @@ export default function PeoplePage() {
       id: 22,
       name: "Dr Marta Antonetti",
       title: "Consultancy/contracts Unit Lead",
-      image: "/bio_anton.jpeg?height=200&width=200&text=MA",
-      personal_website: "https://www.martaantonetti.com",
+      image: "/bio_antonetti.jpeg?height=200&width=200&text=MA",
       institutional_website: "https://www.lse.ac.uk/government/people",
       focus: "Democratic Values, Political Participation, Political leaders and Campaigns, Experimental Methods, Survey Designs ",
 
@@ -145,7 +144,7 @@ export default function PeoplePage() {
       name: "Dr Thomas Robinson",
       image: "/bio_tom.jpg?height=200&width=200&text=TR",
       personal_website: "https://ts-robinson.com",
-      institutional_website: "https://www.lse.ac.uk/Methodology/People/Academic-Staff/Thomas-Robinson/",
+      institutional_website: "https://www.lse.ac.uk/people/thomas-robinson",
       focus: "Money in Politics, Voting Behaviour, and Methodological issues in experimental design and machine learning"
     },
     {
@@ -195,7 +194,6 @@ export default function PeoplePage() {
       id: 20,
       name: "Dr Vanessa Cheng-Matsuno",
       image: "/bio_vanessa.jpg?height=200&width=200&text=VC",
-      personal_website: "https://vchengm.wordpress.com/",
       institutional_website: "https://www.southampton.ac.uk/people/65765j/miss-vanessa-cheng-matsuno",
       focus: "Latin American politics, field and survey experiments, political elites, public policy, social mobilisation"
     },
@@ -205,21 +203,20 @@ export default function PeoplePage() {
       image: "/bio_olga.jpg?height=200&width=200&text=OM",
       personal_website: "https://www.southampton.ac.uk/people/5wzzpw/doctor-olga-maslovskaya",
       institutional_website: "https://www.southampton.ac.uk/people/5wzzpw/doctor-olga-maslovskaya",
-      focus: "All Aspects of Survey, Survey Data Colleciton, Data Quality"
+      focus: "All Aspects of Survey, Survey Data Collection, Data Quality"
     },
     {
       id: 23,
-      name: "Dr Lauren Leek",
-      image: "/bio_Leek.png?height=200&width=200&text=LL",
-      personal_website: "https://laurenleek.eu/",
-      institutional_website: "https://www.eui.eu/people?id=lauren-leek",
-      focus: "Political Economy, Public Policy, Public Opinion using Causal Inference and Computational Methods",
+      name: "Dr Irene Rodríguez",
+      image: "/bio_rodriguez.jpeg?height=200&width=200&text=IR",
+      personal_website: "http://www.irenerodriguez.cat",
+      focus: "Political Behaviour, Public Opinion, Quantitative Methods, Causal Inference",
 
     },
     {
       id: 24,
       name: "Conrad Martinez-Lambert",
-      image: "/bio_conrad.jpg?height=200&width=200&text=LL",
+      image: "/bio_conrad.jpg?height=200&width=200&text=CM",
       personal_website: "https://uk.linkedin.com/in/conrad-pollcat-elections-postgrad",
       institutional_website: "https://uk.linkedin.com/in/conrad-pollcat-elections-postgrad",
       focus: "Inequality and Polarization, Public Opinion, Elections",
@@ -227,7 +224,7 @@ export default function PeoplePage() {
     {
       id: 25,
       name: "Ben Ginsburg Hix",
-      image: "/bio_ben_h.jpeg?height=200&width=200&text=LL",
+      image: "/bio_ben_h.jpeg?height=200&width=200&text=BGH",
       personal_website: "https://www.lse.ac.uk/government/people",
       institutional_website: "https://www.lse.ac.uk/government/people",
       focus: "Survey Methods and Experiments, Electoral Campaigns, Causal Inference and Computational Methods, and Radical Right Voting",
@@ -236,7 +233,7 @@ export default function PeoplePage() {
         {
       id: 26,
       name: "Lennard Metson",
-      image: "/bio_len.jpg?height=200&width=200&text=LL",
+      image: "/bio_len.jpg?height=200&width=200&text=LM",
       personal_website: "https://lenmetson.com/",
       institutional_website: "https://www.lse.ac.uk/people/lennard-metson",
       focus: "Campaigns, Social Influence, Political Technology, Persuasion and Mobilisation, RCTs, and Computational Methods",
@@ -244,7 +241,7 @@ export default function PeoplePage() {
         {
       id: 27,
       name: "Elena Pro",
-      image: "/bio_pro.jpg?height=200&width=200&text=LL",
+      image: "/bio_pro.jpg?height=200&width=200&text=EP",
       personal_website: "https://elenapro.eu/",
       institutional_website: "https://www.lse.ac.uk/people/elena-pro",
       focus: "Political Behaviour and Psychology, Comparative Politics, Causal Inference and Mixed Methods",
@@ -304,6 +301,13 @@ export default function PeoplePage() {
       personal_website: "https://www.southampton.ac.uk/people/6655c8/miss-mollie-ruler",
       institutional_website: "https://www.southampton.ac.uk/people/6655c8/miss-mollie-ruler",
       focus: "Public Opinion, Quantitative Methodology, Criminal Justice, Punitive Attitudes, Social Psychology",
+    },
+    {
+      id: 35,
+      name: "Dr Lawrence McKay",
+      image: "/bio_mckay.jpg?height=200&width=200&text=LM",
+      institutional_website: "https://www.reading.ac.uk/politics-international-relations/staff/dr-lawrence-mckay",
+      focus: "Public Opinion, Political Geography, Political Trust, British Politics, Geospatial Data",
     },
 
   ]
