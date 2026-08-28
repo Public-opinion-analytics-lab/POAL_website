@@ -11,6 +11,44 @@ export default function MethodsBriefSeriesPage() {
                 Explore our comprehensive methods brief series covering advanced research methodologies and analytical techniques.
               </p>
             </div>
+            
+
+            {/* Application of LLMs to Qualitative Coding Tasks */}
+            <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 p-8 max-w-md mx-auto mb-8">
+              <a 
+                href="/POAL_brief_llms_qualitative_coding.pdf" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block group"
+              >
+                {/* Application of LLMs to Qualitative Coding Tasks Image */}
+                <div className="mb-6 relative overflow-hidden rounded-lg h-48 group-hover:scale-105 transition-transform duration-300">
+                  <img 
+                    src="/llms_qualitative_coding.jpg" 
+                    alt="Application of LLMs to Qualitative Coding Tasks Using Quallmer Methods Brief"
+                    className="w-full h-full object-cover rounded-lg shadow-md"
+                  />
+                </div>
+
+                {/* Content */}
+                <div className="text-center">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors duration-300">
+                    Application of LLMs to Qualitative Coding Tasks Using Quallmer
+                  </h3>
+                  <p className="text-gray-500 text-xs font-medium mb-2">By Mollie Ruler and Ken Benoit</p>
+                  <p className="text-gray-600 text-sm mb-4">
+                    This brief outlines the growing potential for the application of LLMs to qualitative coding tasks.
+                  </p>
+                  <div className="inline-flex items-center text-blue-600 font-medium text-sm">
+                    <span>Download PDF</span>
+                    <svg className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </div>
+                </div>
+              </a>
+            </div>
+
 
             {/* Measuring and Predicting Pre-Election Polling Error */}
             <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 p-8 max-w-md mx-auto mb-8">
@@ -20,7 +58,7 @@ export default function MethodsBriefSeriesPage() {
                 rel="noopener noreferrer"
                 className="block group"
               >
-                {/* UMeasuring and Predicting Pre-Election Polling Error Image */}
+                {/* Measuring and Predicting Pre-Election Polling Error Image */}
                 <div className="mb-6 relative overflow-hidden rounded-lg h-48 group-hover:scale-105 transition-transform duration-300">
                   <img 
                     src="/polling_error.jpg" 

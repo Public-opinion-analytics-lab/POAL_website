@@ -80,6 +80,7 @@ export default function PeoplePage() {
       name: "Dr Marta Antonetti",
       title: "Consultancy/contracts Unit Lead",
       image: "/bio_antonetti.jpeg?height=200&width=200&text=MA",
+      personal_website: "https://www.lse.ac.uk/government/people",
       institutional_website: "https://www.lse.ac.uk/government/people",
       focus: "Democratic Values, Political Participation, Political leaders and Campaigns, Experimental Methods, Survey Designs ",
 
@@ -217,9 +218,9 @@ export default function PeoplePage() {
       id: 24,
       name: "Conrad Martinez-Lambert",
       image: "/bio_conrad.jpg?height=200&width=200&text=CM",
-      personal_website: "https://uk.linkedin.com/in/conrad-pollcat-elections-postgrad",
-      institutional_website: "https://uk.linkedin.com/in/conrad-pollcat-elections-postgrad",
-      focus: "Inequality and Polarization, Public Opinion, Elections",
+      personal_website: "https://www.linkedin.com/in/conrad-martinez-lambert",
+      institutional_website: "https://www.linkedin.com/in/conrad-martinez-lambert",
+      focus: "Voting Systems, Polarisation, Public Opinion, Elections",
     },
     {
       id: 25,
