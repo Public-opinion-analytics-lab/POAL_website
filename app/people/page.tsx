@@ -70,7 +70,6 @@ export default function PeoplePage() {
       name: "Prof Robert Johns",
       title: "Media Unit Lead",
       image: "/bio_robert.jpg?height=200&width=200&text=RJ",
-      personal_website: "https://www.southampton.ac.uk/people/65brpg/professor-robert-johns",
       institutional_website: "https://www.southampton.ac.uk/people/65brpg/professor-robert-johns",
       focus: "Questionnaire design and measurement of public opinion; survey experiments; attitudes towards human rights; 'post-truth' and public opinion"
      
@@ -80,8 +79,7 @@ export default function PeoplePage() {
       name: "Dr Marta Antonetti",
       title: "Consultancy/contracts Unit Lead",
       image: "/bio_antonetti.jpeg?height=200&width=200&text=MA",
-      personal_website: "https://www.lse.ac.uk/government/people",
-      institutional_website: "https://www.lse.ac.uk/government/people",
+      institutional_website: "https://www.lse.ac.uk/people/marta-antonetti",
       focus: "Democratic Values, Political Participation, Political leaders and Campaigns, Experimental Methods, Survey Designs ",
 
     },
@@ -92,7 +90,6 @@ export default function PeoplePage() {
       id: 4,
       name: "Prof Gabriele Durrant",
       image: "/bio_gabi.jpg?height=200&width=200&text=GD",
-      personal_website: "https://www.southampton.ac.uk/people/5x25ff/professor-gabriele-durrant",
       institutional_website: "https://www.ncrm.ac.uk/about/people/hub/Gabriele-Durrant.php",
       focus: "Survey Methods, Survey Data Collection, Data Quality, Statistical Modelling"
     },
@@ -109,7 +106,6 @@ export default function PeoplePage() {
       id: 7,
       name: "Prof Patrick Sturgis",
       image: "/bio_patrick.png?height=200&width=200&text=PS",
-      personal_website: "https://www.lse.ac.uk/Methodology/People/Academic-Staff/Patrick-Sturgis/Patrick-Sturgis",
       institutional_website: "https://www.lse.ac.uk/Methodology/People/Academic-Staff/Patrick-Sturgis/Patrick-Sturgis",
       focus: "Survey and Statistical Methods, Understanding Social and Political Behaviour"
     },
@@ -117,7 +113,6 @@ export default function PeoplePage() {
       id: 8,
       name: "Prof Tereza Capelos",
       image: "/bio_tereza.jpg?height=200&width=200&text=TC",
-      personal_website: "https://www.southampton.ac.uk/people/656nwf/professor-tereza-capelos",
       institutional_website: "https://www.southampton.ac.uk/people/656nwf/professor-tereza-capelos",
       focus: "Grievance Politics, Resentful Emotionality, Reactionary Orientations, Anti-democratic and Authoritarian Political Preferences"
 ,
@@ -170,7 +165,7 @@ export default function PeoplePage() {
       name: "Dr Zach Dickson",
       image: "/bio_zac.jpg?height=200&width=200&text=ZD",
       personal_website: "https://z-dickson.github.io",
-      institutional_website: "https://www.lse.ac.uk/Methodology/People/Academic-Staff/Zach-Dickson/Zach-Dickson",
+      institutional_website: "https://www.lse.ac.uk/people/zach-dickson",
       focus: "US and UK politics, Elites, Representation and Public Opinion using Causal Inference and Computational Methods",
 
     },
@@ -195,6 +190,7 @@ export default function PeoplePage() {
       id: 20,
       name: "Dr Vanessa Cheng-Matsuno",
       image: "/bio_vanessa.jpg?height=200&width=200&text=VC",
+      personal_website: "https://vcheng-m.github.io/",
       institutional_website: "https://www.southampton.ac.uk/people/65765j/miss-vanessa-cheng-matsuno",
       focus: "Latin American politics, field and survey experiments, political elites, public policy, social mobilisation"
     },
@@ -202,7 +198,6 @@ export default function PeoplePage() {
       id: 21,
       name: "Dr Olga Maslovskaya",
       image: "/bio_olga.jpg?height=200&width=200&text=OM",
-      personal_website: "https://www.southampton.ac.uk/people/5wzzpw/doctor-olga-maslovskaya",
       institutional_website: "https://www.southampton.ac.uk/people/5wzzpw/doctor-olga-maslovskaya",
       focus: "All Aspects of Survey, Survey Data Collection, Data Quality"
     },
@@ -219,15 +214,13 @@ export default function PeoplePage() {
       name: "Conrad Martinez-Lambert",
       image: "/bio_conrad.jpg?height=200&width=200&text=CM",
       personal_website: "https://www.linkedin.com/in/conrad-martinez-lambert",
-      institutional_website: "https://www.linkedin.com/in/conrad-martinez-lambert",
       focus: "Voting Systems, Polarisation, Public Opinion, Elections",
     },
     {
       id: 25,
       name: "Ben Ginsburg Hix",
       image: "/bio_ben_h.jpeg?height=200&width=200&text=BGH",
-      personal_website: "https://www.lse.ac.uk/government/people",
-      institutional_website: "https://www.lse.ac.uk/government/people",
+      institutional_website: "https://www.lse.ac.uk/people/benjamin-ginsburg-hix",
       focus: "Survey Methods and Experiments, Electoral Campaigns, Causal Inference and Computational Methods, and Radical Right Voting",
     },
 
@@ -267,7 +260,7 @@ export default function PeoplePage() {
       id: 30,
       name: "Dr Konstantin Bogatyrev",
       image: "/bio_konstantin.jpg?height=200&width=200&text=KB",
-      personal_website: "https://www.lse.ac.uk/government/people/academic-staff/konstantin-bogatyrev",
+      personal_website: "https://sites.google.com/view/konstantin-bogatyrev/",
       institutional_website: "https://www.lse.ac.uk/government/people/academic-staff/konstantin-bogatyrev",
       focus: "Voting Behaviour, Populism, Europe, LGBTQ+ Politics, Causal Inference, Survey Experiments",
     },
@@ -276,7 +269,7 @@ export default function PeoplePage() {
       name: "Charlotte Kuberka",
       image: "/bio_charlotte.png?height=200&width=200&text=CK",
       personal_website: "https://charlottekuberka.github.io",
-      institutional_website: "https://www.lse.ac.uk/government/people",
+      institutional_website: "https://www.lse.ac.uk/people/charlotte-kuberka",
       focus: "Political Behaviour and Place-Based Identities, Green Transformation, Urban-Rural Divide, Computational Social Science",
     },
     {
@@ -284,7 +277,6 @@ export default function PeoplePage() {
       name: "Anton Könneke",
       image: "/bio_anton.png?height=200&width=200&text=AK",
       personal_website: "https://www.antonkoenneke.de",
-      institutional_website: "https://www.lse.ac.uk/government/people#Kr",
       focus: "Political Behaviour, Representation, Campaigns, Activism, Field Experiments and Causal Inference",
     },
     {
@@ -299,7 +291,6 @@ export default function PeoplePage() {
       id: 34,
       name: "Mollie Ruler",
       image: "/bio_mollie.jpg?height=200&width=200&text=MR",
-      personal_website: "https://www.southampton.ac.uk/people/6655c8/miss-mollie-ruler",
       institutional_website: "https://www.southampton.ac.uk/people/6655c8/miss-mollie-ruler",
       focus: "Public Opinion, Quantitative Methodology, Criminal Justice, Punitive Attitudes, Social Psychology",
     },
