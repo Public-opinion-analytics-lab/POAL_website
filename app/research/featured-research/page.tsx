@@ -8,8 +8,344 @@ export default function FeaturedResearchPage() {
       <section className="py-16 px-4 md:px-6">
         <div className="container mx-auto">
           <h1 className="text-3xl md:text-4xl font-bold mb-16 text-center">Featured Research</h1>
-
+          
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-48 w-full bg-white overflow-hidden">
+                <Image
+                  src="/turnbull-dugarte_far_right_women.png?height=200&width=400"
+                  alt="Far-right women do not win more votes: descriptive evidence from Britain"
+                  fill
+                  className="object-contain scale-150"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">Far-right women do not win more votes: descriptive evidence from Britain</h3>
+                <p className="text-gray-500 mb-4">2026</p>
+                <p className="text-gray-700 mb-4">
+                 Can women candidates help far-right parties overcome their persistent gender gap? Using Reform UK candidates in the 2024 UK general election and British Election Study data, the study examines whether women candidates performed better electorally and whether they narrowed the gender gap in Reform support. The results provide little evidence for either expectation.
+                </p>
+                <Link href="https://doi.org/10.1332/25151088Y2026D000000157" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
+                  Read the full study <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div> 
+
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-48 w-full overflow-hidden">
+                <Image
+                  src="/hobolt_brexit.jpg?height=200&width=400"
+                  alt="Britain's Enduring Brexit Tribes"
+                  fill
+                  className="object-contain scale-150"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">Britain's Enduring Brexit Tribes</h3>
+                <p className="text-gray-500 mb-4">2026</p>
+                <p className="text-gray-700 mb-4">
+                 How has Brexit continued to shape British political identities? The article examines how Brexit created distinct identities around Leave and Remain and how these identities continue to shape how people understand politics today.
+                </p>
+                <Link href="https://doi.org/10.1177/20419058261491217" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
+                  Read the full study <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-48 w-full overflow-hidden">
+                <Image
+                  src="/jennings_etal_placebased_policies.png?height=200&width=400"
+                  alt="How Place-Based Policy Could Counter Populist Discontent"
+                  fill
+                  className="object-cover object-[50%_15%] scale-75"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">How Place-Based Policy Could Counter Populist Discontent</h3>
+                <p className="text-gray-500 mb-4">2026</p>
+                <p className="text-gray-700 mb-4">
+                 Can place-based policy help counter populist discontent? Drawing on a 2025 survey in England, the study finds widespread place-based grievance alongside local pride and demand for state intervention, but little faith in central government’s ability to deliver. It argues for more place-sensitive multilevel governance and a gradual move towards devolved government.
+                </p>
+                <Link href="https://doi.org/10.1111%2F1467-923x.70114" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
+                  Read the full study <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div> 
+
+
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-48 w-full overflow-hidden">
+                <Image
+                  src="/anderson_pro_autonomy_paradox.png?height=200&width=400"
+                  alt="The Autonomy Paradox Research"
+                  fill
+                  className="object-cover object-[100%_20%] scale-75"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">The Autonomy Paradox: Artificial Intelligence and the Foundations of Political Behavior</h3>
+                <p className="text-gray-500 mb-4">2026</p>
+                <p className="text-gray-700 mb-4">
+                 How does AI affect citizens’ political judgment and action? The paper introduces the “autonomy paradox”: AI can reduce barriers to participation while weakening independent political judgment, or support reflective preference formation while constraining citizens’ ability to act on those preferences. It develops a framework for identifying when AI supports autonomous citizenship and when it substitutes for citizens’ judgment or agency.
+                </p>
+                <Link href="https://www.cambridge.org/core/journals/perspectives-on-politics/article/autonomy-paradox-artificial-intelligence-and-the-foundations-of-political-behavior/29B69824C5D7D355588308D2F8FF702C" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
+                  Read the full study <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div> 
+
+
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-48 w-full overflow-hidden">
+                <Image
+                  src="/turnbull-dugarte_instrumentally_inclusive.png?height=200&width=400"
+                  alt="Still Instrumentally Inclusive"
+                  fill
+                  className="object-contain scale-150"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">Still Instrumentally Inclusive</h3>
+                <p className="text-gray-500 mb-4">2026</p>
+                <p className="text-gray-700 mb-4">
+                 Does opposition from Muslim out-groups increase support for LGBT+ inclusion? Revisiting their Spanish study across alternative weighting schemes, variance estimators, subgroup definitions, and covariate adjustments, the authors find strong support for their original results: the treatment increases support for LGBT+ inclusion, without consistent variation by immigration attitudes.
+                </p>
+                <Link href="https://doi.org/10.1017/S0003055426101828" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
+                  Read the full study <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div> 
+
+
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-48 w-full overflow-hidden">
+                <Image
+                  src="/reifler_educational_strikes.jpg?height=200&width=400"
+                  alt="Whose side are you on? Ideology and support for educational strikes in England"
+                  fill
+                  className="object-cover object-[50%_99%] scale-80"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">Whose side are you on? Ideology and support for educational strikes in England</h3>
+                <p className="text-gray-500 mb-4">2026</p>
+                <p className="text-gray-700 mb-4">
+                 What shapes public support for strikes by teachers and university lecturers? Using seven waves of YouGov data from England, the authors find that political orientation is the strongest and most consistent predictor of support, outweighing demographic factors —including whether respondents have children at home.
+                </p>
+                <Link href="https://doi.org/10.1177/0143831x261464376" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
+                  Read the full study <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div> 
+            
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-48 w-full overflow-hidden">
+                <Image
+                  src="/sturgis_robinson_socbot.png?height=200&width=400"
+                  alt="SOCbot Research"
+                  fill
+                  className="object-cover object-center"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">SOCbot: Using Large Language Models to Dynamically Measure and Classify Occupations in Surveys</h3>
+                <p className="text-gray-500 mb-4">2026</p>
+                <p className="text-gray-700 mb-4">
+                 Can LLMs improve the measurement and classification of occupations in surveys? The paper introduces SOCbot, which codes occupations in real time and asks follow-up questions when more information is needed. It achieves coder reliability comparable to trained human coders and is feasible for large-scale survey use.
+                </p>
+                <Link href="https://journals.sagepub.com/doi/10.1177/00491241261461516" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
+                  Read the full study <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div> 
+
+
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-48 w-full overflow-hidden">
+                <Image
+                  src="/lawall_polarisation_feel.png?height=200&width=400"
+                  alt="How does affective polarization feel? A comparative description"
+                  fill
+                  className="object-cover object-[80%_0%]"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">How does affective polarization feel? A comparative description</h3>
+                <p className="text-gray-500 mb-4">2026</p>
+                <p className="text-gray-700 mb-4">
+                 How does affective polarization actually feel? Using data from five European countries, the study finds that it is most consistently associated with positive emotions toward in-party voters and, to a lesser extent, aversion, hate, and disgust toward opponents. Overall, affective polarization appears to feel more positive than prevailing notions of “fear and loathing” suggest.
+                </p>
+                <Link href="https://doi.org/10.1017/s1475676526101170" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
+                  Read the full study <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div> 
+
+
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-48 w-full overflow-hidden">
+                <Image
+                  src="/rodriguez_legitimising_prejudice.png?height=200&width=400"
+                  alt="Legitimising Prejudice Research"
+                  fill
+                  className="object-cover object-[50%_95%] scale-90"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">Legitimising prejudice? The impact of radical right party presence on anti-immigration attitude expression</h3>
+                <p className="text-gray-500 mb-4">2026</p>
+                <p className="text-gray-700 mb-4">
+                 Does the parliamentary entry of radical right parties affect the expression of anti-immigration attitudes? Using the entry of Vox into the Andalusian Parliament in 2018 and a difference-in-differences design, the study finds an immediate increase in expressed negative attitudes towards immigration in Andalusia relative to the rest of Spain. However, the effect does not persist in the long term.
+                </p>
+                <Link href="https://doi.org/10.1016/j.electstud.2026.103081" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
+                  Read the full study <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div> 
+
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-48 w-full">
+                <Image
+                  src="/turnbull-dugarte_rrp_minority_candidates.png?height=200&width=400"
+                  alt="Does far-right legislative entry affect minority candidate diversity?"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">Does far-right legislative entry affect minority candidate diversity?</h3>
+                <p className="text-gray-500 mb-4">2026</p>
+                <p className="text-gray-700 mb-4">
+                 Does far-right entry into local politics affect minority candidate diversity? Using a regression discontinuity design in Swedish municipalities, the study finds that far-right entry reduces the share of immigrant candidates in mainstream parties, but responses differ by ideology: left-wing parties increase immigrant recruitment, while right-wing parties reduce it, resulting in a net increase in immigrant representation on ballots.
+                </p>
+                <Link href="https://doi.org/10.1017/psrm.2026.10101" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
+                  Read the full study <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-48 w-full overflow-hidden">
+                <Image
+                  src="/sturgis_nonresponse.png?height=200&width=400"
+                  alt="Survey Experience and Nonresponse in an Online Probability Panel"
+                  fill
+                  className="object-cover object-[50%_45%] scale-75"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">Survey Experience and Nonresponse in an Online Probability Panel: A Survival Analysis</h3>
+                <p className="text-gray-500 mb-4">2026</p>
+                <p className="text-gray-700 mb-4">
+                 What aspects of survey experience affect continued participation in online probability panels? Using survival models, the study finds that longer and less enjoyable surveys, phone interviews, and longer gaps between invitations predict nonresponse, while personality also strongly shapes response propensity across survey invitations.
+                </p>
+                <Link href="https://doi.org/10.1093/poq/nfag047" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
+                  Read the full study <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div> 
+
+
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-48 w-full overflow-hidden">
+                <Image
+                  src="/lawall_electoral_loss.png?height=200&width=400"
+                  alt="Angry Losers Research"
+                  fill
+                  className="object-cover object-[50%_50%] scale-95"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">Angry losers? The (null) effects of feeling electoral loss on anti-democratic attitudes</h3>
+                <p className="text-gray-500 mb-4">2026</p>
+                <p className="text-gray-700 mb-4">
+                 Does feeling electoral loss increase support for anti-democratic attitudes? Two pre-registered survey experiments following the 2022 and 2024 US elections find no evidence that priming partisans’ negative feelings about losing affects support for political violence or democratic norms.
+                </p>
+                <Link href="https://doi.org/10.1017/s1475676525100601" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
+                  Read the full study <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div> 
+
+
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-48 w-full overflow-hidden">
+                <Image
+                  src="/sorace_eu_responsiveness.png?height=200&width=400"
+                  alt="Dimension-specific party and public opinion responsiveness in the EU immigration acquis"
+                  fill
+                  className="object-cover object-[50%_50%] scale-95"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">Dimension-specific party and public opinion responsiveness in the EU immigration acquis</h3>
+                <p className="text-gray-500 mb-4">2026</p>
+                <p className="text-gray-700 mb-4">
+                 How do party positions and public opinion shape voting on EU immigration policy? Analysing EU immigration policies from 1990–2018 and voting behaviour for over 350 parties, the study finds that parties follow their programmatic positions more closely on immigration, but respond more to short-term shifts in public opinion on the EU integration dimension.
+                </p>
+                <Link href="https://doi.org/10.1080/01402382.2025.2605929" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
+                  Read the full study <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div>   
+
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-48 w-full overflow-hidden">
+                <Image
+                  src="/reifler_info_climate.png?height=200&width=400"
+                  alt="Perceptions about Public Support for Climate Action"
+                  fill
+                  className="object-cover object-[50%_95%] scale-95"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">Information on public opinion has lasting effects on second-order climate beliefs, but minimal and ephemeral effects on first-order beliefs</h3>
+                <p className="text-gray-500 mb-4">2026</p>
+                <p className="text-gray-700 mb-4">
+                 Can correcting misperceptions about public support for climate action strengthen climate beliefs and behaviours? A preregistered survey experiment in Germany finds lasting improvements in perceptions of public opinion, particularly among those who initially underestimated support. However, effects on policy feasibility perceptions, attitudes, and behavioural intentions are small, short-lived, and largely non-significant.
+                </p>
+                <Link href="https://doi.org/10.1016/j.jenvp.2026.102901" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
+                  Read the full study <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div>           
+
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-48 w-full">
+                <Image
+                  src="/hobolt_tolerance.png?height=200&width=400"
+                  alt="Partisan (In)Tolerance and Affective Polarization"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">Partisan (In)Tolerance and Affective Polarization</h3>
+                <p className="text-gray-500 mb-4">2026</p>
+                <p className="text-gray-700 mb-4">
+                 How does affective polarization relate to tolerance of political opponents’ civil liberties? Using two pre-registered experiments in Britain, the study finds high levels of partisan intolerance and a strong association between partisan intolerance and affective polarization, but not with abstract measures of political tolerance.
+                </p>
+                <Link href="https://doi.org/10.1017/s0007123426101550" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
+                  Read the full study <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div>
 
             <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <div className="relative h-48 w-full">
@@ -33,6 +369,27 @@ export default function FeaturedResearchPage() {
               </div>
             </div>
 
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+              <div className="relative h-48 w-full overflow-hidden">
+                <Image
+                  src="/tappin_ai_persuasion.png?height=200&width=400"
+                  alt="Political Persuasion with Conversational AI"
+                  fill
+                  className="object-cover object-[50%_30%] scale-95"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">The Levers of Political Persuasion with Conversational Artificial Intelligence</h3>
+                <p className="text-gray-500 mb-4">2025</p>
+                <p className="text-gray-700 mb-4">
+                  What makes conversational AI politically persuasive? Across 707 British political issues, the study finds that LLMs are most persuasive after posttraining, particularly when prompted to use facts and evidence. However, information-dense responses also produce the most inaccurate claims, highlighting a trade-off between persuasiveness and accuracy.
+                </p>
+                <Link href="https://doi.org/10.1126/science.aea3884" className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium">
+                  Read the full study <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </div>
+            </div>
 
             <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <div className="relative h-48 w-full">
@@ -56,6 +413,7 @@ export default function FeaturedResearchPage() {
               </div>
             </div>
 
+            
             <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <div className="relative h-48 w-full">
                 <Image
@@ -77,6 +435,7 @@ export default function FeaturedResearchPage() {
                 </Link>
               </div>
             </div>
+
 
             <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <div className="relative h-48 w-full">
